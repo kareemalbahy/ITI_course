@@ -1072,6 +1072,9 @@ class TestState extends State<Test> with SingleTickerProviderStateMixin{
             ElevatedButton(onPressed: (){
               positionStream!.cancel();
             }, child: Text("cancel stream")),
+            ElevatedButton(onPressed: (){
+              positionStream!.cancel();
+            }, child: Text("cancel stream")),
           ],
 
       //topics
